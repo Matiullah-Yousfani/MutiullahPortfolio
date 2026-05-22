@@ -123,8 +123,15 @@ export function Navbar() {
             <SheetContent side="right" className="w-72 p-0">
               <div className="flex flex-col h-full p-6 pt-12">
                 <div className="flex items-center gap-2 mb-8">
-                  <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30">
-                    <Code2 className="w-4 h-4 text-primary" />
+                  <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30 overflow-hidden p-0.5">
+                    <img
+                      src="/favicon.svg"
+                      alt=""
+                      width={28}
+                      height={28}
+                      className="size-7 rounded-[5px]"
+                      aria-hidden
+                    />
                   </div>
                   <span className="font-bold text-lg">
                     <span className="gradient-text">Matiullah</span>
