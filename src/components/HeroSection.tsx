@@ -12,8 +12,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
 const roles = [
-  ".NET Backend Developer",
-  "AI-Integrated Systems Builder",
+  "Junior Full-Stack .NET Developer",
+  "Cloud-Native & AI-Integrated Builder",
 ]
 
 const floatingBadges = [
@@ -147,10 +147,11 @@ export function HeroSection() {
         </div>
 
         <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-up delay-300">
-          I build scalable backend systems, modern web applications, and
-          AI-powered solutions using .NET and Azure. I specialize in clean APIs,
-          LLM-based intelligence, and production-ready systems that are reliable
-          and efficient.
+          Junior full-stack .NET developer with production experience from
+          multiple internships—building cloud-native apps with ASP.NET Core,
+          Azure Functions, and React. I focus on REST APIs, JWT auth, LLM
+          integrations, unit testing, and shipping end-to-end systems you can
+          rely on.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in-up delay-400">
@@ -194,16 +195,16 @@ export function HeroSection() {
           </a>
           <span className="w-px h-4 bg-border" />
           <span className="text-sm text-muted-foreground">
-            BSc CS · PAF-KIET
+            BSc CS · IET (PAF-KIET)
           </span>
         </div>
 
         <div className="mt-16 animate-fade-in-up delay-600">
           <div className="mx-auto grid max-w-lg grid-cols-3 gap-6 sm:max-w-xl sm:gap-8">
             {[
-              { value: "20+", label: "Projects Completed" },
-              { value: "99%", label: "System Reliability" },
-              { value: "Real-World", label: "Industry Experience" },
+              { value: "2", label: "Industry Internships" },
+              { value: "3.79", label: "CGPA (8th Sem.)" },
+              { value: "2026", label: "Graduation (Expected)" },
             ].map((stat) => (
               <div key={stat.label} className="min-w-0 text-center">
                 <div className="text-xl font-bold gradient-text sm:text-2xl md:text-3xl">

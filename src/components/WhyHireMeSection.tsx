@@ -70,12 +70,14 @@ export function WhyHireMeSection() {
             <CardContent className="p-6 sm:p-8 space-y-4">
               <p className="text-base text-foreground leading-relaxed">
                 Hi! I&apos;m <span className="font-semibold">Matiullah</span> — a
-                .NET Backend Developer specializing in ASP.NET Core, Azure
-                Functions, and AI-integrated systems.
+                junior full-stack .NET developer with hands-on production
+                experience across internships: ASP.NET Core, Azure Functions,
+                React.js, JWT, EF Core, and OpenAI integrations.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                I help clients build scalable, reliable, and intelligent
-                applications that solve real-world problems.
+                I care about clean architecture, reliable APIs, and delivering
+                software end-to-end—from design and tests through staging and Azure
+                deployment.
               </p>
             </CardContent>
           </Card>
@@ -107,19 +109,21 @@ export function WhyHireMeSection() {
                 <ul className="space-y-2 text-sm text-muted-foreground leading-relaxed">
                   <li>
                     <span className="font-medium text-foreground">Frontend:</span>{" "}
-                    React.js, JavaScript, HTML, CSS
+                    React.js, TypeScript, HTML5, CSS3, JavaScript (ES6+)
                   </li>
                   <li>
                     <span className="font-medium text-foreground">Backend:</span>{" "}
-                    ASP.NET Core, .NET, C#
+                    ASP.NET Core, .NET 8, Web API, Azure Functions, EF Core, JWT,
+                    Serilog, xUnit
                   </li>
                   <li>
                     <span className="font-medium text-foreground">Databases:</span>{" "}
                     SQL Server, MySQL
                   </li>
                   <li>
-                    <span className="font-medium text-foreground">Tools:</span>{" "}
-                    Git, REST APIs, Postman, Azure
+                    <span className="font-medium text-foreground">Cloud & tools:</span>{" "}
+                    Microsoft Azure, Git, GitHub, Visual Studio, VS Code, Postman,
+                    SonarQube
                   </li>
                 </ul>
               </CardContent>

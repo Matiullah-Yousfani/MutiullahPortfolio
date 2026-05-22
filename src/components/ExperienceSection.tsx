@@ -159,8 +159,8 @@ export function ExperienceSection() {
             <span className="gradient-text">Education</span>
           </h2>
           <p className="max-w-xl mx-auto text-muted-foreground text-base">
-            Computer Science undergrad with industry internship experience and a
-            focus on .NET, React, Azure, and AI-integrated systems.
+            CS undergrad at IET (PAF-KIET) with two software internship placements
+            and a focus on .NET, Azure Functions, React, and AI-enhanced backends.
           </p>
         </div>
 
