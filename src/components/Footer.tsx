@@ -1,4 +1,4 @@
-import { GitBranch, Globe, Mail, Code as Code2, ExternalLink } from "lucide-react"
+import { GitBranch, Globe, Mail, ExternalLink } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 import { Button } from "@/components/ui/button"
 
@@ -47,8 +47,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30">
-                <Code2 className="w-4 h-4 text-primary" />
+              <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30 overflow-hidden p-0.5">
+                <img
+                  src="/favicon.svg"
+                  alt=""
+                  width={28}
+                  height={28}
+                  className="size-7 rounded-[5px]"
+                  aria-hidden
+                />
               </div>
               <span className="font-bold text-lg">
                 <span className="gradient-text">Matiullah</span>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { Menu, X, Code as Code2 } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { ModeToggle } from "@/components/mode-toggle"
@@ -61,8 +61,15 @@ export function Navbar() {
           onClick={() => handleNavClick("#home")}
           className="flex items-center gap-2 group"
         >
-          <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30 group-hover:bg-primary/20 transition-colors">
-            <Code2 className="w-4 h-4 text-primary" />
+          <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary/10 border border-primary/30 group-hover:bg-primary/20 transition-colors overflow-hidden p-0.5">
+            <img
+              src="/favicon.svg"
+              alt=""
+              width={28}
+              height={28}
+              className="size-7 rounded-[5px]"
+              aria-hidden
+            />
           </div>
           <span className="font-bold text-lg tracking-tight">
             <span className="gradient-text">Matiullah</span>
